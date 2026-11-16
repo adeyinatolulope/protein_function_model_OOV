@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or these tables, please cite the manuscript and this archive."
+type: software
+title: "protein_function_model_OOV: code and result tables for tokenization transfer in protein function prediction"
+version: "1.0.0"
+authors:
+  - family-names: Adeyina
+    given-names: Tolulope S.
+    affiliation: "Morehouse School of Medicine"
+  - family-names: Mohl
+    given-names: Jonathon E.
+    affiliation: "The University of Texas at El Paso"
+repository-code: "https://github.com/adeyinatolulope/protein_function_model_OOV"
+license: MIT
+abstract: >-
+  Pipeline notebook and derived result tables for a comparison of tryptic-peptide,
+  3-mer, peptide-topic and amino-acid-composition representations for Gene Ontology
+  term prediction, with ESM-2 embeddings and homology transfer as reference points.
+keywords:
+  - protein function prediction
+  - tokenization
+  - Gene Ontology
+  - tryptic peptides
+  - out-of-vocabulary
+  - evaluation methodology

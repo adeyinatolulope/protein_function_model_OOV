@@ -1,0 +1,13 @@
+# Versions reported in the manuscript (Google Colab, Python 3.12.13).
+# Colab already provides most of these; pin them only if you run elsewhere.
+numpy==2.0.2
+pandas==2.2.2
+scipy==1.16.3
+scikit-learn==1.6.1
+gensim==4.4.0
+matplotlib
+# ESM-2 reference arm (section 11) only; needs a GPU for reasonable run time.
+transformers==5.13.1
+torch==2.11.0
+# MMseqs2 is not a Python package: install it separately so `mmseqs` is on PATH.
+# The manuscript used build 17b688d21dda57fc5f5b7286ecba7ec003d4717f.
